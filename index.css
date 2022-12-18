@@ -1,0 +1,51 @@
+/* Asthetics */
+*{ 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+body{
+    background-color: slategrey;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 1% 10px 1%;
+    font-size: 3rem;
+}
+
+/* Calculator Features and Display */
+#input{
+    width: 50%;
+    height: 3.3rem;
+
+    font-size: 3rem;
+    background-color: white;
+    color: black;
+    border: black solid 2px;
+}
+
+#calculator{
+    background-color: rgb(22, 22, 22);
+}
+
+.calculatorButton{
+    width: 11rem;
+    height: 5rem;
+
+    font-size: 2.5rem;
+    color: white;
+    background-color: black;
+    border: 0.3rem white solid;
+    border-radius: 1rem;
+
+    margin: 0.5rem;
+
+    cursor: pointer;
+}
+
+.operatorButton{
+    background-color: rgb(98, 0, 0);
+}
